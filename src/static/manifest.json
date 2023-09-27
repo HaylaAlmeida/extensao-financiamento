@@ -1,20 +1,18 @@
 {
     "manifest_version": 3,
-    "name": "react-boilerplate",
-    "description": "react-boilerplate for chrome extension",
+    "name": "Showroom Automóveis",
+    "description": "Ferramenta para preenchimento automático de formulários",
     "version": "1.0.0",
     "action" : {
         "default_popup": "popup.html",
         "default_title": "React Boilerplate",
         "default_icon" : "icon.png"
     },
-    "chrome_url_overrides": {
-        "newtab": "newTab.html"
-    },
     "permissions": [
         "tabs",
         "bookmarks",
         "storage",
+        "unlimitedStorage",
         "identity"
     ],
     "icons": {
